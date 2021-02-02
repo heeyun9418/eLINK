@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/elink" 
+	auth="Container" 
+	type="javax.sql.DataSource" 
+	username="e1belink" 
+	password="e1belink" 
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+	url="jdbc:mysql://118.131.179.138:3306/e1b_elink?useUnicode=true&amp;
+		characterEndocing=UTF-8&amp;
+		useJDBCCompliantTimezoneShift=true&amp;
+		useLegacyDatetimeCode=false&amp;
+		serverTimezone=Asia/Seoul"
+	maxActive="500"
+	maxIdle="100"/>
+</Context>

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+#cp1 {
+	clear: both;
+	width: 100%;
+	height: 300px;
+}
+
+#cp1 h1 {
+	text-align: center;
+	padding-top: 135px;
+	font-size: 30px;
+}
+
+.cp1 {
+	background: url("../image/refillstation.jpg") no-repeat 50% 33%;
+	background-size: cover;
+	color: white;
+}
+
+.cp2 {
+	background: url("../image/upcycling.jpg") no-repeat 50% 45%;
+	background-size: cover;
+	color: white;
+}
+
+.cp3 {
+	background: url("../image/board.jpg") no-repeat center;
+	background-size: cover;
+	color: white;
+}
+
+#snb {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+#snb li {
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid green;
+	cursor: pointer;
+	background: green;
+	color: white;
+	transition:0.1s;
+}
+
+#snb li:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+#snb li:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+#snb li a:hover, #snb li:hover {
+	text-decoration:none;
+	background: white;
+	color: green;
+	transition:0.1s;
+}
+
+#snb #cp2 {
+	background: #00290a;
+	border: 1px solid #00290a;
+}
+
+#snb #cp2:hover {
+	background: white;
+}
+
+section {
+	clear: both;
+	width: 100%;
+}
+
+#list {
+	clear: both;
+	width: 100%;
+	padding: 50px 0;
+}
+
+#list>.div {
+	margin: 0 auto;
+	height: 340px;
+	width: 750px;
+	overflow: hidden;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	margin-top: 30px;
+}
+
+.frame {
+	float: right;
+	border: 1px solid #ddd;
+}
+
+.txt {
+	width: 300px;
+	height: 200px;
+	color: #111;
+	background: #fff;
+}
+
+.txt h3 {
+	margin-left: 10px;
+	padding-top: 10px;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.txt p {
+	color: #550;
+	margin-left: 10px;
+	padding-top: 10px
+}
+
+.txt small, .txt span {
+	margin-left: 10px;
+	padding-top: 10px
+}
+
+@media screen and (max-width:650px) {
+	#list .div {
+		width: 410px;
+	}
+	.txt {
+		display: none;
+	}
+	.frame {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width:651px) and (max-width: 1024px) {
+	#list .div {
+		height: 620px;
+		width: 410px;
+	}
+	.txt {
+		margin-top: 30px;
+		height: 230px;
+	}
+	.frame {
+		clear: both;
+		float: right;
+	}
+}
+
+@media screen and (min-width:1025px) {
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#joinform {
+	width: 450px;
+	margin: 0 auto;
+}
+
+#formlogo {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#logo {
+	width: 20%;
+}
+
+.line {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	border-top: 2px solid black;
+	width: 65%;
+	height: 3px;
+}
+
+li {
+	float: left;
+	list-style: none;
+}
+
+.footer1 li {
+	padding-left: 30px;
+	font-size: 10px;
+}
+
+a:hover, a:visited {
+	text-decoration: none;
+}
+
+footer {
+	height: 150px;
+	text-align: center;
+}
+
+.footer2 {
+	clear: both;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 40%;
+	font-size: 13px;
+}
+
+.footer2>ul>li {
+	margin-left: 10px;
+}

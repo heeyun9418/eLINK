@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+#cp1 {
+	clear: both;
+	width: 100%;
+	height: 300px;
+}
+
+#cp1 h1 {
+	text-align: center;
+	padding-top: 135px;
+	font-size: 30px;
+}
+
+.cp1 {
+	background: url("../image/refillstation.jpg") no-repeat 50% 33%;
+	background-size: cover;
+	color: white;
+}
+
+.cp2 {
+	background: url("../image/upcycling.jpg") no-repeat 50% 45%;
+	background-size: cover;
+	color: white;
+}
+
+.cp3 {
+	background: url("../image/board.jpg") no-repeat center;
+	background-size: cover;
+	color: white;
+}
+
+#snb {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+#snb li {
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid green;
+	cursor: pointer;
+	background: green;
+	color: white;
+	transition:0.1s;
+}
+
+#snb li:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+#snb li:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+#snb li a:hover, #snb li:hover {
+	text-decoration:none;
+	background: white;
+	color: green;
+	transition:0.1s;
+}
+
+#snb #cp2 {
+	background: #00290a;
+	border: 1px solid #00290a;
+}
+
+#snb #cp2:hover {
+	background: white;
+}
+
+#snb #resist {
+	border-bottom: 3px solid green;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px
+}
+
+#notice {
+	border-collapse: separate;
+	border-spacing: 0 20px;
+}
+
+#notice tr th a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+section {
+	clear: both;
+	width: 100%;
+}
+
+#list {
+	clear: both;
+	width: 100%;
+	margin: auto;
+	padding: 50px 0;
+}
+
+#list>div {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+#list>div {
+	display: block;
+	margin-bottom: 30px;
+	border: 1px solid #ddd;
+}
+
+.frame {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.txt {
+	width: 100%;
+	height: 100px;
+	color: #111;
+	background: #fff;
+}
+
+.txt h3 {
+	margin-left: 10px;
+	padding-top: 10px;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+#passForm {
+	width: 350px;
+	text-align: center;
+	border: 1px solid #ddd;
+	justify-content: space-between;
+}
+
+#picture1_1_1 {
+	background: url("../image/amorepacific1.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_1_2 {
+	background: url("../image/aromatica1.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_1_3 {
+	background: url("../image/ecostore.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_1_4 {
+	background: url("../image/sugarbubble.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_1_5 {
+	background: url("../image/refeely.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_1_6 {
+	background: url("../image/almang.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_2_1 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_2_2 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_2_3 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_2_4 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_2_5 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture1_2_6 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_1_1 {
+	background: url("../image/card1.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_1_2 {
+	background: url("../image/card2.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_1_3 {
+	background: url("../image/card3.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_1_4 {
+	background: url("../image/card4.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_1_5 {
+	background: url("../image/card5.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_1_6 {
+	background: url("../image/card6.png") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_2_1 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_2_2 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_2_3 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_2_4 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_2_5 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+#picture2_2_6 {
+	background: url("../image/") no-repeat center;
+	background-size: cover;
+}
+
+.transform {
+	height: 300px;
+	transition: 0.3s;
+}
+
+.transform:hover {
+	transform: scale(1.05, 1.05);
+}
+
+@media all and (min-width:700px) {
+	#list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.div1, .div2, .div3, .div4, .div5, .div6 {
+		width: 48%;
+	}
+	.div1, .div3, .div5 {
+		margin-right: 10px;
+	}
+}
+
+@media all and (min-width:1000px) {
+	.div1, .div2, .div3, .div4, .div5, .div6 {
+		width: 32%;
+	}
+	.div1, .div3, .div5 {
+		margin-right: 0;
+	}
+	.div1, .div2, .div4, .div5 {
+		margin-right: 10px;
+	}
+}
+
+#regist {
+	height: 1000px;
+}
